@@ -94,7 +94,7 @@ span {
     width: 100%;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
     .wid-sm-100 {
         width: auto;
     }
