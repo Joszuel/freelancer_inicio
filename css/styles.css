@@ -117,8 +117,14 @@ span {
 
 .nav-bg {
     background-color: var(--secundario);
-    position: sticky;
-    top: 0;
+}
+
+@media (min-width: 768px) {
+    .nav-bg {
+        position: sticky;
+        top: 0;
+    }
+
 }
 
 .navegador-principal {
