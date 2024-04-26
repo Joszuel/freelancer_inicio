@@ -23,7 +23,8 @@ html {
 
 .servicio,
 .titulo,
-#contacto {
+#contacto,
+.hero {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
