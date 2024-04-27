@@ -72,7 +72,7 @@ span {
     background-color: var(--secundario);
     color: var(--blanco);
     padding: 1rem 2rem;
-
+    transition: all 0.5s;
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -86,6 +86,9 @@ span {
 
 .boton:hover {
     cursor: pointer;
+    background-color: var(--primario);
+    color: var(--oscuro);
+    transition: all 0.5s;
 }
 
 @media (min-width: 480px) {
